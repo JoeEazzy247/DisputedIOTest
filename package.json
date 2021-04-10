@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "DisputedTest": "testcafe chrome TestModule/AutomationProject.js --skip-js-errors",
+        "DisputedTestPOM": "testcafe chrome PageObject/Test/DisputedIOTest.js --skip-js-errors"
+    },
+    "dependencies": {
+        "testcafe": "1.14.0",
+        "xpath-to-css": "^1.0.5"
+    }
+}
